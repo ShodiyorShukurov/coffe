@@ -2,4 +2,7 @@
 $color-primary: orangered;
 
 // FONTS
-$font-stack: "Arial", sans-serif;
+:root{
+    --main-title-color: #FEFCF7;
+    --main-text-color:  #333D4B;
+}

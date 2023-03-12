@@ -18,11 +18,21 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Arial", sans-serif;
-  background-color: #fff;
+  font-family: 'Barlow', sans-serif;
+  background-color: #F2F2FF;
+  font-weight: 400;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
 }

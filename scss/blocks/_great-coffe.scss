@@ -1,0 +1,51 @@
+/********* GREAT COFFE SECTION STYLE START **********/
+.great-coffe__section {
+    background-image: url('/images/home_bg_img.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    .great-coffe__section {
+        background-image: url('/images/home_bg_img@2x.png');
+    }
+}
+.great-coffe__section-wrapper {
+    display: inline-block;
+    padding-top: 120px;
+    padding-left: 86px;
+}
+
+
+.great-coffe__section-title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    max-width: 493px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: var(--main-title-color);
+}
+
+.great-coffe__section-text {
+    margin-top: 0;
+    margin-bottom: 56px;
+    max-width: 440px;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--main-title-color);
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+/********* GREAT COFFE SECTION STYLE END **********/
