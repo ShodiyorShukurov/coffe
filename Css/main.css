@@ -487,6 +487,7 @@ a {
   height: 100%;
   border-radius: 20px;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
@@ -535,4 +536,137 @@ a {
   font-size: 18px;
   line-height: 25px;
   color: var(--main-title-color);
-}/*# sourceMappingURL=main.css.map */
+  cursor: pointer;
+}
+
+/********* COLLECTION SECTION STYLE START *********/
+.collection-section {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/collection.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.collection-section__wrapper {
+  padding-top: 130px;
+}
+
+.collection-section__list {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection-section__item {
+  max-width: 255px;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.collection-section__item-title {
+  margin-top: 72px;
+  margin-bottom: 0;
+  font-family: "Fraunces 9pt";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.collection-section__item-text {
+  margin: 0;
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/********* COLLECTION SECTION STYLE END *********/
+/****** CHOOSE SECTION STYLE START ******/
+.choose-section {
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+}
+
+.choose-section__wrapper {
+  background-color: #2C343E;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 250px;
+}
+
+.choose-section__title {
+  margin-top: 0;
+  margin-bottom: 32px;
+  padding-top: 100px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.choose-section__text {
+  width: 540px;
+  margin: 0 auto;
+  padding-bottom: 86px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.choose-section__list {
+  position: absolute;
+  top: 350px;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choose-section__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 380px;
+  max-width: 350px;
+  background-color: #0E8784;
+  border-radius: 8px;
+}
+
+.choose-section__item-img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 72px;
+}
+
+.choose-section__item-title {
+  margin-top: 54px;
+  margin-bottom: 24px;
+  font-family: "Fraunces ";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+.choose-section__item-text {
+  display: block;
+  margin: 0 auto;
+  padding: 0 48px 48px 48px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--main-title-color);
+}
+
+/****** CHOOSE SECTION STYLE END ******//*# sourceMappingURL=main.css.map */
